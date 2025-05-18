@@ -1,4 +1,4 @@
-# primoProgetto
+# Pagina di presentazione + registrazione app musicale
 Challenges da completare
 
 Pagina index di presentazione con:
