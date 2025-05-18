@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione App Musicale</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+            background-color: #2b2b2b;
+            color: #ebebeb;
+            margin: 0;
+            padding: 10;
+            text-align: center;
+        }
+        h1 {
+            color: #ebebeb;
+            text-align: center;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        form div {
+            margin-bottom: 13px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 7px;
+            transform: scale(1.1);
+        }
+
+        label {
+            font-size: 14px;
+        }
+
+        p {
+            margin-top: 18px;
+            margin-bottom: 13px;
+            font-weight: bold;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            background-color: #b6b6b6;
+            color: rgb(26, 26, 26);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 30px; 
+        }
+
+        button:hover {
+            background-color: #ffffff;
+        }
+        .checkbox-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .checkbox-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            gap: 10px 40px; 
+        }
+
+        .checkbox-columns label {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎵Registrazione App Musicale🎵</h1>
+    <form onsubmit="alert('Registrazione completata!');">
+        <div><input type="text" id="nome" name="nome" placeholder="Il tuo nome"></div>
+        <div><input type="text" id="cognome" name="cognome" placeholder="Il tuo cognome"></div>
+        <div><input type="email" id="email" name="email" placeholder="La tua email"></div>
+        <div><input type="password" id="password" name="password" placeholder="La tua password"></div>
+        <div><input type="text" id="numero di telefono" name="numero" placeholder="Il tuo numero di telefono"></div>
+        <div><input type="date" id="data di nascita" name="data" placeholder="La tua data di nascita"></div>
+        <p>Indica qui i tuoi generi musicali preferiti:</p>
+        <div class="checkbox-container">
+            <div class="checkbox-columns">
+            <label><input type="checkbox" name="rock" value="rock">Rock</label>
+            <label><input type="checkbox" name="punk" value="punk">Punk</label>
+            <label><input type="checkbox" name="metal" value="metal">Metal</label>
+            <label><input type="checkbox" name="pop" value="pop">Pop</label>
+            <label><input type="checkbox" name="kpop" value="kpop">Kpop</label>
+            <label><input type="checkbox" name="jazz" value="jazz">Jazz</label>
+            <label><input type="checkbox" name="elettronica" value="elettronica">Elettronica</label>
+            <label><input type="checkbox" name="rap" value="rap">Rap</label>
+            <label><input type="checkbox" name="neomelodico" value="neomelodico">Neomelodico</label>
+            <label><input type="checkbox" name="blues" value="blues">Blues</label>
+            </div>
+        </div>
+        <div><button type="submit">Registrati!</button></div>   
+    </form>
+   <a href="index.html"><img src="homepage.png" alt="Icona homepage" style="width: 2%"></a>
+</body>
+</html>
