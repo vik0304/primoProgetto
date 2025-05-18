@@ -1,7 +1,7 @@
 # Pagina di presentazione + registrazione app musicale
-Challenges da completare
+-Challenges da completare
 
-Pagina index di presentazione con:
+-Pagina index di presentazione con:
 
 Immagine, hobby e interessi
 
@@ -11,7 +11,7 @@ Contatti
 
 
 
-Pagina di registrazione per un app di music streaming al cui interno bisogna richiedere all'utente:
+-Pagina di registrazione per un app di music streaming al cui interno bisogna richiedere all'utente:
 
 Nome
 
@@ -32,4 +32,4 @@ Accetazione dei termini e condizioni
 Bottone con alert registrazione inviata
 
 
-Ho direttamente messo tutto in uno e collegato le pagine tra di loro.
+-Ho direttamente messo tutto in uno e collegato le pagine tra di loro.
